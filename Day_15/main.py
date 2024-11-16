@@ -61,9 +61,9 @@ def start_machine():
         dimes = int(input("Dimes: "))
         nickles= int(input("Nickles: "))
         pennies= int(input("Pennies: "))
-        money = (0.25 * quarters) + (0.10 * dimes) + (0.05 * nickles) + (0.01 * pennies)
+        coins = (0.25 * quarters) + (0.10 * dimes) + (0.05 * nickles) + (0.01 * pennies)
         
-        return money
+        return coins
 
 
 
