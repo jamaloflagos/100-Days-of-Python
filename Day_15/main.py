@@ -50,7 +50,7 @@ def start_machine():
         for resource in resources:
             if resource in drink_ingredients:
                 if resources[resource] < drink_ingredients[resource]:
-                    print(f"Sorry there is not enough {resource}")
+                    print(f"Sorry there is not enough {resource} for now, come back later.")
                     return False
                 else: 
                     return True
